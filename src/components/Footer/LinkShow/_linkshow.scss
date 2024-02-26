@@ -1,0 +1,21 @@
+.linkshow
+{
+    display: flex;
+    flex-direction: column;
+    .title{
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 400;
+
+    }
+    .links{
+        display: flex;
+        font-size: 13px;
+        margin-top: 0.7rem;
+        flex-direction: column;
+        gap: 0.7rem;
+        color: #B6BDC4;
+    }
+}
+

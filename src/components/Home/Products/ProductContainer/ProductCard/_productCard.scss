@@ -1,0 +1,79 @@
+.productCard
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    gap: 10px;
+    .imageBox{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        img{
+            width: 50%;
+        }
+
+    }
+    .textBox{
+        padding:1rem 1.4rem ;
+        .saleBox{
+            display: flex;
+            gap: 10px;
+            font-size: 13px;
+            color: #074786;
+            span{
+                padding: 5px;
+                background-color: #F3F9FF;
+                border-radius: 5px;
+            }
+        }
+        .title{
+            font-size: 16px;
+            font-weight: 700;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .des{
+            font-size: 16px;
+            color: #626E79;
+            font-weight: 400;
+            line-height: 24px;
+        }
+        .price{
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            font-size: 13px;
+            padding: 10px 0;
+            .amount{
+                font-size: 20px;
+                color: #626E79;
+            }
+            .small-price{
+                color: #9FA9B3;
+            }
+            .sale{
+                color: #EF4C5D;
+            }
+        }
+        .buttonBox{
+            width: 100%;
+            button{
+                width: 100%;
+                padding:0.7rem 0;
+                border: none;
+                border-radius: 12px;
+                background-color: #1B88F4;
+                font-size: 16px;
+                color:#fff;
+                cursor: pointer;
+            }
+            button:active{
+                box-shadow: inset 5px 5px  5px rgba(0,0,0,0.3);
+            }
+        }
+    }
+}

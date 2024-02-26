@@ -1,0 +1,15 @@
+.breadcrumb
+{
+    display: flex;
+    gap: 17px;
+    font-size: 13px;
+    color: #727D87;
+}
+
+@media screen and (max-width:640px) {
+   .breadcrumb{
+    gap: 5px;
+    font-size: 12px;
+   }
+
+}

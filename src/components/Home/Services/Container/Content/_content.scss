@@ -1,0 +1,217 @@
+@forward "./HighLight/highLight";
+.content
+{
+    padding: 0 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    align-items: center;
+    height: auto;
+    
+    background-color: #FFF;
+   position: relative;
+   .top{
+    position: absolute;
+    
+    top: 0;
+    padding: 1rem 0;
+    .acivement{
+    
+        gap: 10px;
+        font-size: 13px;
+        background-color: #FF7724;
+        
+        padding: 0.4rem;
+        color: #FFF;
+        font-weight: 400;
+        border-radius: 0 12px 12px 0;
+        .icon{
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+    }
+    .index{
+        margin-top: 2rem;
+        padding: 10px;
+        width: 2.9rem;
+        text-align: center;
+        border-radius: 100%;
+        transform: translateX(-20px);
+        background-color: #FFF;
+        color: #626E79;
+        font-size: 20px;
+        border: 1px solid #E1E4E6;
+    }
+   }
+    gap: 1rem;
+    .imageBox
+    {
+        padding: 2rem;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        .name{
+            color: #626E79;
+            font-size: 13px;
+        }
+        img{
+            width: 70%;
+        }
+    }
+    .mainBox{
+        padding: 2rem 0;
+        font-size: 16px;
+        color: #4B5665;
+        .about{
+            line-height: 1.4;
+            padding: 0.3rem 0;
+            .name
+            {
+                font-weight: 700;
+            }
+        }
+        .highlight
+        {
+            .title
+            {
+                font-weight: 700;
+                padding-bottom: 0.2rem;
+            }
+            .sub-content
+            {
+                padding: 0.5rem;
+            }
+            .show{
+                color:  #1B88F4;
+            }
+        }
+        
+    }
+    .ResultBox
+    {
+     
+        height: 100%;
+        display: flex;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+        .result{
+            
+          position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+            top: 0%;
+            margin-top: -10px;
+            .result-box{
+                    
+                 
+                        width: 50%;
+                        height: 118px;
+                        background-color: #F3F9FF;
+                        border-radius: 0 0 20px 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+            .point {
+                    font-size: 32px;
+                    color: #074786;
+                    padding: 0.3rem 0;
+            
+                }
+            
+                .compliment {
+                    font-size: 14px;
+                    color: #074786;
+                }
+                .star{
+                    color: gold;
+                    font-size: 13px;
+                    padding: 10px 0;
+                }
+            }
+            
+        }
+        .btn-box
+        {
+            position: absolute;
+            width: 100%;
+            bottom: 4%;
+            text-align: center;
+            button{
+                width: 60%;
+                padding: 0.5rem;
+                background: #1B88F4;
+                border: none;
+                border-radius: 12px;
+                color: #FFF;
+                cursor: pointer;
+            }
+        }
+    }
+
+    
+
+    
+}
+
+
+@media screen and (max-width:640px) {
+    .content{
+        .top{
+            .acivement{
+                font-size: 10px;
+            }
+            .index{
+                font-size: 10px;
+                width: 2rem;
+                transform: translateX(-10px) translateY(-26px);
+            }
+        }
+        .imageBox{
+            padding: 0;
+            img{
+                width: 100%;
+            }
+        }
+        .mainBox{
+            font-size: 8px;
+        }
+      .ResultBox{
+        width: 100%;
+        .result{
+            width: 70%;
+            .result-box{
+                width: 100%;
+                .point{
+                    font-size: 20px;
+                }
+                .compliment{
+                    font-size: 10px;
+                }
+                .star{
+                    font-size: 8px;
+                }
+            }
+        }
+        .btn-box
+        {
+            width: 100%;
+            text-align: start;
+            button{
+                width: 80%;
+                padding: 0.3rem;
+                font-size: 8px;
+            }
+        }
+      }
+    }
+
+}

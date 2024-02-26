@@ -1,0 +1,24 @@
+@forward "./LinkShow/linkshow";
+.footer
+{
+    width: 100%;
+    height: 452px;
+    background: #212731;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.menu{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+@media screen and (max-width:640px) {
+    .footer{
+        padding: 3rem 1rem;
+    }
+
+}

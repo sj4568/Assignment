@@ -1,0 +1,19 @@
+@forward "./ProductCard/productCard";
+
+.product-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 10px;
+}
+
+@media screen and (max-width:640px) {
+    .product-container{
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+}

@@ -1,0 +1,15 @@
+.navlink
+{
+   display: flex;
+   gap: 2rem;
+   .link{
+    color: #D1D6DA;
+    cursor: pointer;
+   }
+}
+
+@media screen and (max-width:640px) {
+   .navlink{
+      flex-direction: column;
+   }
+}

@@ -1,0 +1,38 @@
+.update
+{
+    display: flex;
+    justify-content: space-between;
+    color: #4B5665;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #E1E4E6;
+    border-bottom: 1px solid #E1E4E6;
+    .details
+    {
+        display: flex;
+        gap: 1rem;
+        .det-box{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            
+        }
+      
+    }
+          .det-box2 {
+              display: flex;
+              align-items: center;
+              gap: 5px;
+    
+              .det-icon {
+                  font-size: 50px;
+              }
+          }
+}
+
+@media screen and (max-width:640px) {
+   .update{
+    font-size: 10px;
+   }
+
+}

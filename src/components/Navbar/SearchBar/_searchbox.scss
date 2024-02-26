@@ -1,0 +1,32 @@
+.searchBox
+{
+    width:20% ;
+    background: #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px solid #E1E4E6;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    .search-icons
+    {
+        font-size: 1.3rem;
+    }
+    .inputBox{
+        height: 100%;
+        width: 90%;
+        border: none;
+        font-size: 1rem;
+    }
+    .inputBox:focus
+    {
+        outline: none;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .searchBox{
+        width: 60%;
+    }
+
+}

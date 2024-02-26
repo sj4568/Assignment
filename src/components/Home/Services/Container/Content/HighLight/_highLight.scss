@@ -1,0 +1,55 @@
+.highlight2{
+    
+    
+    .high{
+        background-color: #FFF4ED;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .element{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            .range{
+                padding: 4px;
+                color:#1B88F4 ;
+                background-color: #FFF;
+            }
+        }
+    }
+    .title{
+        padding: 0.5rem 0;
+    }
+    .why{
+        .el{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 15px;
+            padding: 7px 0;
+            .icon{
+                font-size: 10px;
+                padding: 5px;
+                background: #F3F9FF;
+                color: #074786;
+                border-radius: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+    .highlight2{
+        .why{
+            .el{
+                font-size: 10px;
+                .icon{
+                    font-size: 5px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,24 @@
+@forward "./Form/form";
+.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title{
+        font-size: 32px;
+        line-height: 44px;
+        color: #5C6874;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .signup{
+        padding: 1rem;
+        flex-direction: column;
+        .title{
+            width: 100%;
+
+        }
+    }
+
+}

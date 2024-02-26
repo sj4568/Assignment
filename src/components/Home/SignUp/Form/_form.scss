@@ -1,0 +1,34 @@
+.form{
+    width: 50%;
+    display: flex;
+    input{
+        width: 70%;
+        padding: 0.7rem;
+        border-radius: 12px 0 0 12px;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+    }
+    input:focus{
+        outline: none;
+    }
+    button{
+        width: 15%;
+        border: none;
+        border-radius: 0 12px 12px 0;
+        font-size: 14px;
+        background: #1B88F4;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:640px) {
+   .form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+   }
+
+}

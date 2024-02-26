@@ -1,0 +1,12 @@
+@forward "./Content/content";
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 10px;
+    padding: 20px;
+}

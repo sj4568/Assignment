@@ -1,0 +1,23 @@
+@forward "./SearchBar/searchbox";
+@forward "./NavLinks//navLinks";
+$navbar-bg:#212731;
+
+.navbar{
+    
+    background-color: $navbar-bg;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+@media screen and (max-width:640px) {
+    .navbar{
+        flex-direction: column;
+        padding: 1rem 0;
+        height: auto;
+    }
+
+}
